@@ -1,0 +1,150 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .login-container{
+    width: 100vw;
+    height:100vh
+} 
+
+.image-container{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+
+.twitterIcon{
+   color: rgb(67, 198, 228);
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.form-conatiner{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.input{
+    background-color: rgb(180, 245, 237);
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+.input :focus{
+    border: 1px solid black;
+}
+.btn{
+    background-color:  rgb(46, 130, 149);
+    border: none;
+    color: black;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 50%; 
+}
+.google-button{
+    margin-top: 20px;
+    
+    width: 100%;
+    height: 10%;
+}
+.g-btn{
+    width: 80% !important;
+    margin: auto;
+}  */
+
+
+/* ----responsive design ---- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-container {
+    width: 60%;
+    height: 100%;
+}
+
+.form-container {
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.twitterIcon {
+    color: rgb(67, 198, 228);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.input {
+    background-color: rgb(180, 245, 237);
+    border: none;
+    padding: 10px;
+    width: 50%;
+}
+
+.input:focus {
+    border: 1px solid black;
+}
+
+.btn {
+    background-color: rgb(46, 130, 149);
+    border: none;
+    color: black;
+    margin: 20px 0;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 50%;
+}
+
+.google-button {
+    margin-top: 20px;
+    width: 100%;
+    height: 10%;
+}
+
+.g-btn {
+    width: 80% !important;
+    margin: auto;
+}
+
+/* Media Query for screens smaller than 688px */
+@media screen and (max-width: 688px) {
+    .login-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container,
+    .form-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .input,
+    .btn {
+        width: 80%; 
+    }
+}

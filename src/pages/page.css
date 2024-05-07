@@ -1,0 +1,17 @@
+.page{
+    flex: 0.4;
+    border-right: 1px solid rgb(67, 198, 228);
+    width: 100vw;
+    padding: 0px 180px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.pageTitle{
+    color:aqua;
+    text-align: center;
+    font-size: 30px;
+}
+
+

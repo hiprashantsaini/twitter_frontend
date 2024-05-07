@@ -1,0 +1,12 @@
+.feed{
+    width: 50vw;
+}
+.feed__body{
+    width: 100%;
+    height: 100vh;
+    overflow:scroll;
+}
+
+.feed__body::-webkit-scrollbar{
+    display: none;
+}

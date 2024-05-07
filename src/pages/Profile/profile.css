@@ -1,0 +1,17 @@
+/* .profilePage{
+    width: 50vw;
+} */
+
+/* .coverImage{
+    width: 100%;
+} */
+.profilePage{
+    width: 50vw;
+    height: 100vh;
+    overflow-y: scroll;
+    /* min-width: fit-content; */
+}
+
+.profilePage::-webkit-scrollbar{
+    display: none !important;
+}
